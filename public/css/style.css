@@ -1,0 +1,52 @@
+.login-box .card-footer {
+    display: none;
+}
+
+:root {
+    --avatar-size: 40px
+}
+
+.circle {
+    background-color: #ccc;
+    border-radius: 50%;
+    height: var(--avatar-size);
+    text-align: center;
+    width: var(--avatar-size);
+}
+
+.initials {
+    font-size: calc(var(--avatar-size) / 2);
+    line-height: 1;
+    position: relative;
+    top: calc(var(--avatar-size) / 5)
+}
+
+#employeesTable tbody td {
+    vertical-align: middle
+}
+
+.image-cropper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.employee-photo {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    min-height: 40px;
+    min-width: 40px;
+    max-width: 50px;
+}
+
+.select2 {
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+.select2-dropdown {
+    z-index: 999999;
+}
