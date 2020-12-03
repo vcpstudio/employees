@@ -50,3 +50,7 @@
 .select2-dropdown {
     z-index: 999999;
 }
+
+.card {
+    overflow: hidden;
+}
